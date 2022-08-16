@@ -19,3 +19,14 @@ window.onscroll = function () {
     header.classList.remove("navbar-fixed");
   }
 };
+
+const time = new Date().getHours();
+let greeting;
+if (time < 10) {
+  greeting = "Pagi";
+} else if (time < 20) {
+  greeting = "Siang";
+} else {
+  greeting = "Malam";
+}
+document.getElementById("demo").innerHTML = greeting;
