@@ -22,10 +22,12 @@ window.onscroll = function () {
 
 const time = new Date().getHours();
 let greeting;
-if (time < 10) {
+if (time >= 4 && time < 10) {
   greeting = "Pagi";
-} else if (time < 20) {
+} else if (time >= 10 && time < 15) {
   greeting = "Siang";
+} else if (time >= 15 && time < 18) {
+  greeting = "Sore";
 } else {
   greeting = "Malam";
 }
