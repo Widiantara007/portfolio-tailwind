@@ -538,20 +538,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 50%;
 }
 
-.top-14 {
-  top: 3.5rem;
-}
-
 .-top-14 {
   top: -3.5rem;
-}
-
-.top-48 {
-  top: 12rem;
-}
-
-.-top-48 {
-  top: -12rem;
 }
 
 .z-10 {
@@ -598,6 +586,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.5rem;
 }
 
+.-mb-14 {
+  margin-bottom: -3.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -616,30 +612,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-3 {
   margin-top: 0.75rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mt-36 {
-  margin-top: 9rem;
-}
-
-.mt-40 {
-  margin-top: 10rem;
-}
-
-.-mb-10 {
-  margin-bottom: -2.5rem;
-}
-
-.-mb-20 {
-  margin-bottom: -5rem;
-}
-
-.-mb-14 {
-  margin-bottom: -3.5rem;
 }
 
 .block {
@@ -752,6 +724,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(241 245 249 / var(--tw-border-opacity));
 }
 
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
 .bg-transparent {
   background-color: transparent;
 }
@@ -759,11 +736,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-slate-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
 .bg-primary {
@@ -824,14 +796,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.75rem;
 }
 
-.px-28 {
-  padding-left: 7rem;
-  padding-right: 7rem;
-}
-
-.px-36 {
-  padding-left: 9rem;
-  padding-right: 9rem;
+.pt-36 {
+  padding-top: 9rem;
 }
 
 .pt-28 {
@@ -842,28 +808,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 7rem;
 }
 
-.pt-36 {
-  padding-top: 9rem;
-}
-
-.pb-32 {
-  padding-bottom: 8rem;
-}
-
 .pt-20 {
   padding-top: 5rem;
 }
 
 .pb-12 {
   padding-bottom: 3rem;
-}
-
-.pt-32 {
-  padding-top: 8rem;
-}
-
-.pb-36 {
-  padding-bottom: 9rem;
 }
 
 .text-left {
@@ -946,11 +896,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-slate-500 {
   --tw-text-opacity: 1;
   color: rgb(100 116 139 / var(--tw-text-opacity));
-}
-
-.text-slate-700 {
-  --tw-text-opacity: 1;
-  color: rgb(51 65 85 / var(--tw-text-opacity));
 }
 
 .text-white {
